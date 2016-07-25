@@ -7,7 +7,7 @@ project(hector_nist_arena_elements)
 find_package(catkin REQUIRED COMPONENTS gazebo_ros)
 
 catkin_package(
-    DEPENDS gazebo_ros
+    DEPENDS gazebo4_ros
     CATKIN_DEPENDS # TODO
     INCLUDE_DIRS # TODO include
     LIBRARIES # TODO
